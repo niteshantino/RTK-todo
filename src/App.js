@@ -7,7 +7,7 @@ import UpdateTodo from "./components/UpdateTodo";
 
 function App() {
   return (
-    <Routes >
+    <Routes>
       <Route
         path="/"
         element={

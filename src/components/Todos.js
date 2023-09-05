@@ -15,12 +15,9 @@ const Todos = () => {
   };
   return (
     <>
-      <div className="">
+      <div>
         {todos?.map((elem) => (
-          <div
-            key={elem.id}
-            className="flex justify-between bg-transparent mt-2 p-5 border-2 border-yellow-200"
-          >
+          <div key={elem.id} className="flex justify-between bg-white-200 mt-2 p-3 border-2 border-yellow-200">
             <div>{elem.text}</div>
             <div>
               <button
